@@ -1,0 +1,48 @@
+<!-- <p>update-product works!</p>
+<h1>Product id is:{{productID}}</h1> -->
+
+
+<h2 class="bg-light mb-2 text-center">Update Product</h2>
+<form (submit)="updateProduct(updateProductForm)" #updateProductForm="ngForm"
+       style="border: 3px solid cadetblue; padding: 20px; ">
+
+
+  <div class="row ">
+    <div class="col-md-3">
+    </div>
+
+    <div class="col-md-3">
+      <label for="validationServer02" class="form-label">Product-Id</label>
+      <input type="text" class="form-control" required  name="id"
+        [(ngModel)]="productDetails.id">
+    </div>
+
+
+    <div class="col-md-3">
+      <label for="validationServer01" class="form-label">product name</label>
+      <input type="text" class="form-control" 
+        required name="productName" [(ngModel)]="productDetails.productName">
+    </div>
+  </div>
+
+  <div class="row">
+       <div class="col-md-3">
+       </div>
+
+    <div class="col-md-3 mt-3">
+        <label for="validationServer03" class="form-label">Description</label>
+        <input type="text" class="form-control" placeholder="Enter Product Desciption"
+         required name="description" [(ngModel)]="productDetails.description">      
+    </div>
+
+    <div class="col-md-3 mt-3">
+      <label for="validationServer04" class="form-label">Price</label>
+      <input type="text" class="form-control" required name="price" 
+      [(ngModel)]="productDetails.price">
+    </div>
+  </div>
+
+  <div class="col-12 text-center mt-5 mb-3">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>

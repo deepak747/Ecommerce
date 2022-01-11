@@ -1,0 +1,157 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "productName": "girls shirt",
+      "categoryID": 4,
+      "description": "Lorem:1 ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
+      "price": "$10.00 - $20.00",
+      "is_avilable": "true",
+      "productImg": "http://localhost:4200/assets/test1.jpeg",
+      "rating": 4,
+      "review": 300,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 2,
+      "productName": "partywherar shirt",
+      "categoryID": 2,
+      "description": "Lorem:2 ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
+      "price": "$30.00 - $50.00",
+      "is_avilable": "true",
+      "productImg": "http://localhost:4200/assets/shirts2.jpeg",
+      "rating": 4,
+      "review": 300,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 3,
+      "productName": "Bussinessman shirt",
+      "categoryID": 2,
+      "description": "Lorem:5 ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
+      "price": "$40.00 - $80.00",
+      "is_avilable": "true",
+      "productImg": "http://localhost:4200/assets/shirts55.jpeg",
+      "rating": 4,
+      "review": 300,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 4,
+      "productName": "Dell Inspinon 15 i-7 genration",
+      "categoryID": 1,
+      "description": "Lorem:6 ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
+      "price": "$140.00 - $180.00",
+      "is_avilable": "true",
+      "productImg": "http://localhost:4200/assets/laptop2.jpeg",
+      "rating": 4,
+      "review": 300,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 5,
+      "productName": "i-ped 15 series",
+      "categoryID": 4,
+      "description": "Lorem:7 ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
+      "price": "$145.00 - $175.00",
+      "is_avilable": "true",
+      "productImg": "http://localhost:4200/assets/laptop3.jpeg",
+      "rating": 4,
+      "review": 300,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 6,
+      "productName": "One-Plus Mobile",
+      "categoryID": 5,
+      "description": "Lorem:8 ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
+      "price": "$140.00 - $180.00",
+      "is_avilable": "true",
+      "productImg": "http://localhost:4200/assets/mobile1.jpeg",
+      "rating": 4,
+      "review": 300,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 7,
+      "productName": "i-phone 11",
+      "categoryID": 4,
+      "description": "Lorem:9 ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
+      "price": "$40.00 - $80.00",
+      "is_avilable": "true",
+      "productImg": "http://localhost:4200/assets/mob2.jpeg",
+      "rating": 4,
+      "review": 300,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 8,
+      "productName": "i-phone 8",
+      "categoryID": 4,
+      "description": "Lorem:10 ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
+      "price": "$100.00 - $1250.00",
+      "is_avilable": "true",
+      "productImg": "http://localhost:4200/assets/mobile3.jpeg",
+      "rating": 4,
+      "review": 300,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": "93",
+      "productName": "i-phone 15",
+      "description": "Lorem:3 ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?",
+      "price": "150"
+    },
+    {
+      "id": "94",
+      "productName": "lenevo laptop",
+      "description": "i-7 10-genration",
+      "price": "$20.00 - $50.00"
+    },
+    {
+      "id": "YX9dfS7",
+      "productName": "",
+      "description": "",
+      "price": ""
+    },
+    {
+      "id": "knnWuEC",
+      "productName": "",
+      "description": "",
+      "price": ""
+    }
+  ],
+  "cetegories": [
+    {
+      "id": 1,
+      "cetegorieName": "Laptops"
+    },
+    {
+      "id": 2,
+      "cetegorieName": "Men"
+    },
+    {
+      "id": 3,
+      "cetegorieName": "Women"
+    },
+    {
+      "id": 4,
+      "cetegorieName": "i-phone"
+    },
+    {
+      "id": 5,
+      "cetegorieName": "mobiles"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
