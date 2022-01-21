@@ -9,30 +9,27 @@ import { Category } from '../category';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  categoryList:any
-  categoryID=0;
+  categoryList: any
+  categoryID = 0;
   proData: any;
-  constructor(private productService:ProductService,
-    private activatedRoute:ActivatedRoute) { }
+  constructor(private productService: ProductService,
+    private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.productService.getCategory().subscribe(categorydata=>{
-      this.categoryList=categorydata;
+      this.productService.getCategory().subscribe(categorydata => {
+      this.categoryList = categorydata;
     })
 
-                this.activatedRoute.params.subscribe(data=>{
-                  this.categoryID=data['id'];
-            console.log("Category ID is:",this.categoryID);
-                })
-                
+      this.activatedRoute.params.subscribe(data => {
+      this.categoryID = data['id'];
+      console.log("Category ID is:", this.categoryID);
 
-
-    // this.productService.searchCategProduct(this.categoryID).subscribe(categorydata=>{
-    //      this.categoryList=categorydata;
-    //       console.log("In Header categoryList is",this.categoryList);
-    // })
-          
+    })
 
   }
-
+             
+  cart() {
+    alert("Go to product component")
+           //   this.moduleFunction()
+         }
 }

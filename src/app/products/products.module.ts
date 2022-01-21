@@ -10,9 +10,10 @@ import { ViewAllProductComponent } from './view-all-product/view-all-product.com
 import { ViewProductComponent } from './view-product/view-product.component';
 import { ViewProductByCategoryComponent } from './view-product-by-category/view-product-by-category.component';
 import { ViewProductByDateComponent } from './view-product-by-date/view-product-by-date.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { AddToCartComponent } from './add-to-cart/add-to-cart.component';
 import { SiteLayoutModule } from '../site-layout/site-layout.module';
+import { ProductService } from './product.service';
 
 
 @NgModule({
@@ -27,13 +28,13 @@ import { SiteLayoutModule } from '../site-layout/site-layout.module';
     ViewProductByDateComponent,
     AddToCartComponent,
      
-    // ReactiveFormsModule
   ],
   imports: [
     CommonModule,
     ProductsRoutingModule,
     FormsModule,
     SiteLayoutModule
-  ]
+  ],
+         
 })
 export class ProductsModule { }

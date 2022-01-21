@@ -37,7 +37,9 @@
                         <ul class="dropdown-menu"
                             aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" *ngFor="let catg of
-                                    categoryList" href="products/search-cat/{{catg.id}}" routerLink="">{{catg.cetegorieName}}</a></li>
+                                    categoryList"
+                                    href="products/search-cat/{{catg.id}}"
+                                    routerLink="">{{catg.cetegorieName}}</a></li>
                             <li><hr class="dropdown-divider" /></li>
                         </ul>
                     </li>
@@ -45,10 +47,11 @@
             </ul>
 
             <form class="d-flex">
-                <button class="btn btn-outline-light" type="submit">
+                <button class="btn btn-outline-light" type="button"
+                    (click)="cart()" routerLink="/add-card">
                     <i class="bi-cart-fill me-1"></i>
                     Cart
-                    <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    <span class="badge bg-dark text-white ms-1 rounded-pill">5</span>
                 </button>
             </form>
         </div>

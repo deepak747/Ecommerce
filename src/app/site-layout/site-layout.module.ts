@@ -3,19 +3,21 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-//my thinking
-
+import { ProductService } from '../products/product.service';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-  
   ],
+           
   imports: [
-    CommonModule
+    CommonModule,
+
   ],
   exports:[HeaderComponent,FooterComponent,SidebarComponent]
 })
-export class SiteLayoutModule { }
+export class SiteLayoutModule { 
+
+}

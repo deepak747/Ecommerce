@@ -11,5 +11,9 @@ export class AddToCartComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+                
+  // moduleFunction()
+  //    {
+  //      console.log("Its colling from the anoter componet");
+  //    }
 }

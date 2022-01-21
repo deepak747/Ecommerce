@@ -11,6 +11,8 @@ import { UpdateProductComponent } from './update-product/update-product.componen
 import { AddToCartComponent } from './add-to-cart/add-to-cart.component';
         
   // for the Modules
+  import {ModuleWithProviders} from '@angular/core';
+import { HeaderComponent } from '../site-layout/header/header.component';
 
 
 const routes: Routes = [
@@ -26,7 +28,19 @@ const routes: Routes = [
   {path:'delete-product/:id', component:DeleteProductComponent},
   {path:'view-product/:id', component:ViewProductComponent},
   {path:'update-product/:id', component:UpdateProductComponent},
-  {path:'add-card',component:AddToCartComponent}
+  {path:'add-card',component:AddToCartComponent},
+
+       //my self
+       
+      //  { path:'', 
+      //     children:[
+      //       {
+      //         path:'add-card',component:AddToCartComponent
+      //       }
+      //     ]
+      // }
+       
+
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],
